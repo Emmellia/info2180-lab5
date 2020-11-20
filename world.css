@@ -1,1 +1,72 @@
 /* Add your own styles */
+
+body{
+    background-color: #f7fbf7;
+    margin:0;
+}
+
+
+
+header{
+    display:flex;
+    background-color:slategray;
+    color: #ffffff;
+    justify-content:center;
+    height: 25vh;
+    padding-top: 25px;
+    align-items: center;
+    padding-bottom: 25px;
+    font-size:22px;
+}
+
+header img{
+    float: left;
+    width: 200px;
+    height:200px;
+    padding-right: 30px;
+    margin:0;
+}
+
+#controls{
+    padding-top:50px;
+    display:flex;
+    justify-content: center;
+    margin:20px;
+}
+
+#controls input {
+    padding:15px;
+    width:500px;
+    margin-left:20px;
+
+}
+
+#lookup{
+    width:130px;
+    margin-left:20px;
+    background-color: #1e78ff;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 18px;
+}
+    
+
+#city{
+    width:130px;
+    margin-left:20px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+label{
+    padding-top:10px;
+    font-size: 20px;
+}
+
+#result{
+    margin-left:335px;
+    padding-top: 60px;
+}
+
